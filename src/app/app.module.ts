@@ -6,8 +6,10 @@ import { WarningAlertComponent } from './warning/warning.component'
 import { SuccessAlertComponent } from './success/success.component'
 import { HeaderComponent } from './header/header.component';
 import { RecipesComponent } from './recipes/recipes.component';
-import { RecipesListComponent } from './recipes/recipes-list/recipes-list.component';
-import { RecipesDetailComponent } from './recipes/recipes-detail/recipes-detail.component'
+import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
+import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
+import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
+
 
 @NgModule({
   declarations: [
@@ -16,8 +18,9 @@ import { RecipesDetailComponent } from './recipes/recipes-detail/recipes-detail.
     SuccessAlertComponent,
     HeaderComponent,
     RecipesComponent,
-    RecipesListComponent,
-    RecipesDetailComponent
+    RecipeListComponent,
+    RecipeDetailComponent,
+    RecipeItemComponent,
   ],
   imports: [
     BrowserModule,
