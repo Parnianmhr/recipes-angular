@@ -5,7 +5,8 @@ import { AppComponent } from './app.component'
 import { WarningAlertComponent } from './warning/warning.component'
 import { SuccessAlertComponent } from './success/success.component'
 import { HeaderComponent } from './header/header.component';
-import { RecipesComponent } from './recipes/recipes.component'
+import { RecipesComponent } from './recipes/recipes.component';
+import { RecipesListComponent } from './recipes/recipes-list/recipes-list.component'
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { RecipesComponent } from './recipes/recipes.component'
     WarningAlertComponent,
     SuccessAlertComponent,
     HeaderComponent,
-    RecipesComponent
+    RecipesComponent,
+    RecipesListComponent
   ],
   imports: [
     BrowserModule,
